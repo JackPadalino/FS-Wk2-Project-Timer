@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(183, 0, 255));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,p,button,input{
+    font-family: 'Candal';
+    color:white;
+    margin:0px;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+#title{
+    font-size:50px;
+}
+
+#timeNow{
+    font-size: 100px;
+}
+
+button,input{
+    color:black;
+}
+
+#mainContainer{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#inputContainer{
+    display:flex;
+    justify-content:center;
+}
+
+#buttonContainer{
+    display:flex;
+    justify-content: center;
+}
+
+input{
+    width:125px;
+    border-radius: 3px;
+}
+
+.hidden{
+    display:none;
+}
+
+.shown{
+    display:block;
+}
